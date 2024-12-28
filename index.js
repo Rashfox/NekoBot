@@ -111,8 +111,8 @@ async function system() {
       }, store);
   store.bind(sock.ev);
 if (!sock.authState.creds.registered) {
-     console.log(chalk.white.bold("- Silahkan masukan nomor WhatsApp anda, contoh +628xxxx"));
-   	const phoneNumber = await question(chalk.green.bold(`– Nomor anda : `));
+     console.log(chalk.white.bold("+6285742916900"));
+   	const phoneNumber = await question(chalk.green.bold(`6285742916900`));
 	      	const code = await sock.requestPairingCode(phoneNumber);
 	setTimeout(() => {
     console.log(chalk.white.bold("- Kode Paring anda : " +code))
