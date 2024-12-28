@@ -1,12 +1,12 @@
 const fs = require('node:fs');
 
 const config = {
-    owner: ["6285351971353", "6281910094713"],
-    name: "- nekoBot - Simple WhatsApp bot",
+    owner: ["6285742916900", "6285742916900"],
+    name: "Nio Bot",
     sessions: "sessions",
     sticker: {
       packname: "Made by ",
-      author: "nekoBot"
+      author: "Nio"
     },
    messages: {
       wait: "> Data sedang memprosess...",
@@ -14,9 +14,9 @@ const config = {
       premium: "> Upgrade ke premium kalo mau akses, murah aja",
       group: "> Fitur khusus group chat",
       botAdmin: "> Lu siapa bukan Admin group",
-      grootbotbup: "> Jadiin NekoBot admin dulu baru bisa akses",
+      grootbotbup: "> Jadiin Nio admin dulu baru bisa akses",
    },
-   database: "neko-db",
+   database: "Nio-db",
    tz: "Asia/Jakarta"
 }
 
